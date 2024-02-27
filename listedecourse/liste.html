@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="liste.css">
+</head>
+<body>
+    <div class="marge-haut">
+        <h4 align="center">Liste de course</h4>
+    </div>
+    <div class="div1">
+        <center>
+            <table name="table" id="myTable">
+                <tr align="center">
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Apple')">Apple</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Banana')">Banana</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Pear')">Pear</button>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Cheese')">Cheese</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Yogurt')">Yogurt</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Cream')">Cream</button>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Paper')">Paper</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Pen')">Pen</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Rule')">Rule</button>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Sugar')">Sugar</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Salt')">Salt</button>
+                    </td>
+                    <td>
+                        <button class="favorite styled" value="Generate a table" type="button" onclick="addToBasket('Paper')">Paper</button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="div2"><center>
+        <table id="basketTable">
+            <thead>
+                <tr>
+                    <th><h1>Basket</h1></th>
+                </tr>
+            </thead>
+            <tbody id="basketTableBody">
+            </tbody>
+        </table></center>
+    </div>
+    <script src="liste.js"></script>
+</body>
+</html>

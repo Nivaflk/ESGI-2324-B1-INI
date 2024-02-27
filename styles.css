@@ -1,0 +1,14 @@
+.coldan {
+    background-color: rgb(59, 31, 105);
+}
+.colev{
+   color: aliceblue;
+}
+
+body, html {  height: 100%;margin: 0;}
+.bg {
+background-image: url("bckg_maths.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;  }

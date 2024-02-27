@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="styles.css">  
+</head>
+
+
+<body>
+  <div class="bg">
+  
+  <div class="coldan">
+    <h1 class="colev" id="titre"><center>Calculatrice</center></h1>
+    </div>
+    <center><form action="" method="get" id="form">
+      <h3 class="colev">
+        Premier nombre <input type="number" name="input1" id="input1" />
+
+        Deuxieme nombre <input type="number" name="input2" id="input2" />
+      </h3>
+      <br/>
+      <br/>
+      <br/>
+
+        <select name="select" id="select">
+          <option value="add">Addition</option>
+          <option value="sub">Soustraction</option>
+          <option value="mul">Multiplication</option>
+          <option value="div">Division</option>
+        </select>
+  
+       <button type="submit">Effectuer le calcul</button>
+      
+      </form>
+  
+      <br /><br />
+      <h3 class="colev">Le résultat est 
+      <span id="result"></span></h3>
+    </center>
+
+      <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
